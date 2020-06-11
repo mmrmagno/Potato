@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div.relativeb { 
+        position: relative;
+        left: 120px;
+        right: 100px;
+        border: 1px;
+        }
+        div.relative2 { 
+        position: relative;
+        left: 53px;
+        border: 10px;
+        }
+        div.relative { 
+        position: relative;
+        left: 30px;
+        border: 10px;    
+        }
+        div.relativeb button, div.relative2 input, div.relative input {
+            border-radius: 5px;
+            background-color: transparent;
+                
+        }
+        * {
+          font-family: sans-serif;
+        }
+    </style>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script defer src="logScript.js"></script>
+</head>
+<body style="background-image:url(https://eurama.hu/wp-content/uploads/2017/02/budapest-1959378_960_720.jpg); background-size: cover">
+    <div id="error"></div>
+    <form onsubmit="return foo();">
+        <div class="relative2">
+            <label  for="name">Name:</label>
+            <input id="name" name="name" type="text" required>
+        </div>
+        <div class="relative">  
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" required>
+        </div>
+        <div class="relativeb">
+        <button onclick="window.location.href = 'index.html'" type="submit">submit</button>
+        </div>
+    </form>
+    <script defer src="logScript.js"></script>
+</body>
+</html>

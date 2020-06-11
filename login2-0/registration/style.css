@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(1023379.jpg);
+    background-size: cover;
+    padding: 0 10px;
+}
+
+.wrapper{
+    width: 320px;
+    height: 560px;
+    background: url(VibrantFlakyHerculesbeetle-max-1mb.gif);
+    background-size: cover;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.wrapper {
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+}
+
+
+.avatar{
+    opacity: 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);   
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.wrapper input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wrapper input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.wrapper input[type="text"], input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+.wrapper input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.wrapper input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;       
+}
+
+.wrapper a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.wrapper a:hover
+{
+    color: #ffc107;
+}
